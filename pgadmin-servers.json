@@ -1,0 +1,22 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "auth-db",
+      "Group": "Microservices",
+      "Host": "auth-db",
+      "Port": 5432,
+      "MaintenanceDB": "auth_db",
+      "Username": "postgres",
+      "SSLMode": "prefer"
+    },
+    "2": {
+      "Name": "users-db",
+      "Group": "Microservices",
+      "Host": "users-db",
+      "Port": 5432,
+      "MaintenanceDB": "users_db",
+      "Username": "postgres",
+      "SSLMode": "prefer"
+    }
+  }
+}
